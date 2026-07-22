@@ -411,7 +411,7 @@ def create_ui():
     cmds.button(label="_High", command=lambda x: add_suffix_preset("_High"),
                 height=18, backgroundColor=(0.85, 0.7, 0.6))
     cmds.setParent("..")
-    cmds.button(label="_LOD", command=lambda x: add_suffix_preset("_LOD"),
+    cmds.button(label="_LOW", command=lambda x: add_suffix_preset("_LOW"),
                 height=18, backgroundColor=(0.6, 0.8, 0.85))
     cmds.setParent("..")
     cmds.columnLayout(adjustableColumn=True, rowSpacing=2)
